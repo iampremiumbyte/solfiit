@@ -94,6 +94,11 @@
     width: 200px;
 }
 
+.brands .smallBrand {
+    width: 50px;
+    height: 80px;
+}
+
 @media screen and (max-width: 1024px) {
     .hero {
         flex-direction: column;
