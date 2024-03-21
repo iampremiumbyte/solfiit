@@ -49,6 +49,7 @@
 .roadmap h2 {
     font-size: 2em;
     text-align: center;
+    color: #fff;
 }
 
 .roadmap img {
@@ -167,6 +168,10 @@
 
     .roadmap img {
         width: 90%;
+    }
+
+    .roadmap h2 {
+        font-size: 1em;
     }
 
 }

@@ -3,6 +3,7 @@
     background-color: #000113;
     padding: 2em;
     width: 100%;
+    border-bottom: .3px solid #fff;
 }
 
 .navContainer div {

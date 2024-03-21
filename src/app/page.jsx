@@ -47,6 +47,7 @@ const page = () => {
         <h2>Stay up to date with the latest news</h2>
       </section>
       <section id='roadmap' className={styles.roadmap}>
+        <h2>Roadmap</h2>
         <Image src={'/roadmap.png'} width={400} height={400} />
       </section>
       {/* Try App */}
