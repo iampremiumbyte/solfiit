@@ -41,9 +41,10 @@
 
     .links {
         margin-top: 2em;
+        width: 100%;
     }
 
     .links a {
-        font-size: .8em;
+        font-size: .9em;
     }
 }
