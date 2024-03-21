@@ -46,7 +46,7 @@ const page = () => {
         <Image src={'/SolFit Dark 6.png'} width={400} height={400} />
         <h2>Stay up to date with the latest news</h2>
       </section>
-      <section id='raodmap' className={styles.roadmap}>
+      <section id='roadmap' className={styles.roadmap}>
         <Image src={'/roadmap.png'} width={400} height={400} />
       </section>
       {/* Try App */}
