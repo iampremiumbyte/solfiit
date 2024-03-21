@@ -21,7 +21,7 @@ const page = () => {
       </div>
       {/* OVERVIEW */}
       <section className={styles.flexView}>
-        <h2>Revolutionary application allowing users to stake their $SOLFIT and gain monetary rewards for being fit.
+        <h2>Revolutionary application allowing users to stake their $SOLFIT and gain Monetary rewards for being fit.
 </h2>
         <Image src={'/SolFit Dark 1.png'} width={400} height={400} />
       </section>
