@@ -84,19 +84,19 @@ const page = () => {
         <h2>Try our app in</h2>
         <div className={styles.timerContainer}>
           <div no className={styles.timerItem}>
-            <h3>{timeLeft.days}</h3>
+            <h3 suppressHydrationWarning >{timeLeft.days}</h3>
             <h5>Days</h5>
           </div>
           <div className={styles.timerItem}>
-            <h3>{timeLeft.hours}</h3>
+            <h3 suppressHydrationWarning >{timeLeft.hours}</h3>
             <h5>Hours</h5>
           </div>
           <div className={styles.timerItem}>
-            <h3>{timeLeft.minutes}</h3>
+            <h3 suppressHydrationWarning >{timeLeft.minutes}</h3>
             <h5>Minutes</h5>
           </div>
           <div className={styles.timerItem}>
-            <h3>{timeLeft.seconds}</h3>
+            <h3 suppressHydrationWarning >{timeLeft.seconds}</h3>
             <h5>Seconds</h5>
           </div>
         </div>
