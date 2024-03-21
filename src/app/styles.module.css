@@ -52,7 +52,8 @@
 }
 
 .roadmap img {
-    width: 100%;
+    width: 600px;
+    margin: 2em 0;
 }
 
 
@@ -157,6 +158,10 @@
 
     .brands img {
         width: 100px;
+    }
+
+    .roadmap img {
+        width: 90%;
     }
 
 }

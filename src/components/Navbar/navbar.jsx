@@ -13,7 +13,7 @@ const Navbar = () => {
             <a href="#roadmap">Roadmap</a>
             <a href="https://t.me/solfitcoinportal">Telegram</a>
             <a href="https://x.com/solfitcoin">Twitter</a>
-            <a href="#" className={styles.actionnLink}>Whitepaper</a>
+            <a href="https://whitepaper.solfit.app/" className={styles.actionnLink}>Whitepaper</a>
         </ul>
         </div>
     </nav>

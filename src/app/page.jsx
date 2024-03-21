@@ -47,7 +47,7 @@ const page = () => {
         <h2>Stay up to date with the latest news</h2>
       </section>
       <section id='raodmap' className={styles.roadmap}>
-        <Image src={'/roadmap.jpg'} width={400} height={400} />
+        <Image src={'/roadmap.png'} width={400} height={400} />
       </section>
       {/* Try App */}
       <Timer/>
