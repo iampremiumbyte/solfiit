@@ -17,7 +17,6 @@ const page = () => {
       <div className={styles.brands}>
         <Image src={"/ipfs.webp"} width={100} height={50}/>
         <Image src={"/phtg.webp"} width={100} height={50}/>
-        <Image src={"/android logo white.png"} className={styles.smallBrand} width={100} height={50}/>
         <Image src={"/flare.png"} width={100} height={50}/>
       </div>
       {/* OVERVIEW */}
