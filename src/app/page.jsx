@@ -15,9 +15,10 @@ const page = () => {
       </section>
       {/* BRANDS */}
       <div className={styles.brands}>
-        <Image src={"/ipfs.webp"} width={100} height={50}/>
-        <Image src={"/phtg.webp"} width={100} height={50}/>
-        <Image src={"/flare.png"} width={100} height={50}/>
+        <Image src={"/IPFS logo white hq.png"} width={100} height={50}/>
+        <Image src={"/chainlink logo white hq.png"} width={100} height={50}/>
+        <Image src={"/solflare logo white hq.png"} width={100} height={50}/>
+        <Image src={"/phantom logo white hq.png"} width={100} height={50}/>
       </div>
       {/* OVERVIEW */}
       <section className={styles.flexView}>
@@ -47,7 +48,7 @@ const page = () => {
       </section>
       <section id='roadmap' className={styles.roadmap}>
         <h2>Roadmap</h2>
-        <Image src={'/roadmap.png'} width={400} height={400} />
+        <Image src={'/SolFit Roadmap website hq.png'} width={400} height={400} />
       </section>
       {/* Try App */}
       <Timer/>
