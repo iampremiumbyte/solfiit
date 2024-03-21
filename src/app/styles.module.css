@@ -57,30 +57,6 @@
     margin: 2em auto;
 }
 
-.countdown {
-    margin-top: 2em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.countdown h2 {
-    color: #fff;
-    text-align: center;
-    font-size: 1.2em;
-}
-
-.twoButtons a {
-    display: inline-block;
-    padding: 1em 2em;
-    background-color: #241f31;
-    border-radius: 10px;
-    margin: 0 1em;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-}
 
 .brands {
     display: flex;
@@ -92,6 +68,7 @@
 
 .brands img {
     width: 200px;
+    margin-right: 3em;
 }
 
 .brands .smallBrand {
@@ -138,31 +115,9 @@
         margin-bottom: 1em;
     }
 
-    .timerContainer {
-        width: 90%;
-    }
-
-    .timerItem h3 {
-        font-size: 1em;
-        font-weight: bold;
-    }
-
-    .timerContainer h5 {
-        font-size: .7em;
-    }
-
-    .timerItem {
-        width: 33%;
-        padding: .5em 1em;
-        margin: 0 .5em;
-    }
-
-    .countdown p {
-        font-size: .7em;
-    }
-
     .brands img {
-        width: 100px;
+        width: 70px;
+        margin-right: 1em;
     }
 
     .roadmap img {
