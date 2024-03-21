@@ -5,7 +5,6 @@ import React, { useState, useEffect } from 'react';
 import styles from './styles.module.css'
 
 const page = () => {
-  const [isMounted, setIsMounted] = useState(false);
   const calculateTimeLeft = () => {
     const difference = +new Date("Thu Mar 23 2024") - +new Date();
     let timeLeft = {};
@@ -33,9 +32,6 @@ const page = () => {
     return () => clearTimeout(timer);
   });
 
-  useEffect(()=> {
-    setIsMounted((true));
-  }, [isMounted])
 
 
   return (
@@ -92,15 +88,15 @@ const page = () => {
             <h5>Days</h5>
           </div>
           <div className={styles.timerItem}>
-            <h3>{isMounted && timeLeft.hours}</h3>
+            <h3>{timeLeft.hours}</h3>
             <h5>Hours</h5>
           </div>
           <div className={styles.timerItem}>
-            <h3>{isMounted && timeLeft.minutes}</h3>
+            <h3>{timeLeft.minutes}</h3>
             <h5>Minutes</h5>
           </div>
           <div className={styles.timerItem}>
-            <h3>{isMounted && timeLeft.seconds}</h3>
+            <h3>{timeLeft.seconds}</h3>
             <h5>Seconds</h5>
           </div>
         </div>
