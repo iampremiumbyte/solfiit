@@ -1,0 +1,49 @@
+.navContainer {
+    width: 100%;
+    background-color: #000113;
+    padding: 2em;
+    width: 100%;
+}
+
+.navContainer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.links a {
+    margin-right: 1em;
+}
+
+.actionnLink {
+    background-color: #fff;
+    padding: .5em 1em;
+    border-radius: 20px;
+    color: #000;
+}
+
+@media screen and (max-width: 1024px) {
+    .navContainer div {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .links {
+        margin-top: 2em;
+    }
+
+    .links a {
+        font-size: .8em;
+    }
+}

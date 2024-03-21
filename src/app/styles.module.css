@@ -1,0 +1,212 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.content {
+    width: 60%;
+}
+
+.hero img {
+    width: 600px;
+}
+
+.lightText {
+    color: #42AA9E !important;
+}
+
+.flexView {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.flexView h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.flexView img {
+    width: 50%;
+    margin-right: 2em;
+}
+
+.roadmap {
+    margin-top: 2em;
+}
+
+.roadmap h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.roadmap img {
+    width: 100%;
+}
+
+
+.countdown {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.countdown h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.timerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 1em auto;
+}
+
+.timerItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #6A3ED9;
+    padding: 1em 2em;
+    border-radius: 10px;
+    margin: 0 .5em;
+}
+
+.timerItem h3 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.timerContainer h5 {
+    font-size: 1em;
+}
+
+.countdown {
+    margin-bottom: 2em;
+}
+
+.countdown p {
+    color: #fff;
+    text-align: center;
+}
+
+.countdown a {
+    color: #6A3ED9;
+    font-size: .9em;
+}
+
+.twoButtons {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twoButtons a {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #241f31;
+    border-radius: 10px;
+    margin: 0 1em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 4em auto;
+}
+
+.brands img {
+    width: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 3em;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 1.2em;
+        width: 100%;
+    }
+
+    .hero img {
+        width: 300px;
+        margin: 1em auto;
+    }
+
+    .flexView {
+        flex-direction: column-reverse;
+        margin-top: 3em;
+    }
+
+    .flexView img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .flexView h2 {
+        font-size: 1em;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    .timerContainer {
+        width: 90%;
+    }
+
+    .timerItem h3 {
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .timerContainer h5 {
+        font-size: .7em;
+    }
+
+    .timerItem {
+        width: 33%;
+        padding: .5em 1em;
+        margin: 0 .5em;
+    }
+
+    .countdown p {
+        font-size: .7em;
+    }
+
+    .brands img {
+        width: 100px;
+    }
+
+}
