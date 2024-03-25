@@ -3,7 +3,6 @@ import React from 'react';
 import styles from './styles.module.css'
 import Timer from '@/components/timer/Timer';
 
-
 const page = () => {
   return (
     <>
@@ -21,7 +20,11 @@ const page = () => {
       </div>
       </div>
 
-      <div className={`${styles.container} mt-20 py-0 sm:py-6 text-center sm:text-start`}>
+      <div 
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+
+      className={`${styles.container} mt-20 py-0 sm:py-6 text-center sm:text-start`}>
         <div className="container items-center justify-between flex w-full flex-col sm:flex-row">
         <Image alt='mockup' src="/SolFit Dark 1.png" width={200} height={500} className={`${styles.sectionImg} mt-10 sm:mt-0`} />
         <h2 className='text-xl sm:text-3xl font-bold text-white w-full sm:w-1/2'>

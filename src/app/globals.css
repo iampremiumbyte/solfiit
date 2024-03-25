@@ -28,6 +28,13 @@ body {
   /* background-position: center; */
 }
 
+a:hover {
+  background: linear-gradient(to right, #7a5ea7, #4a8dc4, #42ba87);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  transition: .5s;
+}
+
 .container {
   width: 1366px;
   margin: 0 auto;
