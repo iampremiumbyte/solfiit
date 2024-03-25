@@ -1,21 +1,22 @@
 import React from 'react'
 import styles from './style.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
     <nav className={styles.navContainer}>
-        <div className="container">
-        <a href="#" className={styles.logo}>
-            <Image src={'/logo2.png'} width={150} height={50} alt='logo'/>
-        </a>
-        <ul className={styles.links}>
-            <a href="#roadmap">Roadmap</a>
-            <a href="https://t.me/solfitcoinportal">Telegram</a>
-            <a href="https://x.com/solfitcoin">Twitter</a>
-            <a href="https://medium.com/@solanafitcoin">Medium</a>
-            <a href="https://whitepaper.solfit.app/" className={styles.actionnLink}>Whitepaper</a>
-        </ul>
+        <div className="container flex items-center justify-between py-5 px-0">
+          {/* Logo */}
+          <Link href={"/"}>
+          <Image alt='logo' src={"/SolFit logo white no bg.png"} width={100} height={50} className={styles.logo} />
+          </Link>
+          {/* Links */}
+          <div className="flex items-center gap-2 sm:gap-4">
+            <Link href={"#application"} className='text-white font-bold text-sm sm:text-xl'>Application</Link>
+            <Link href={"#roadmap"} className='text-white font-bold text-sm sm:text-xl'>Roadmap</Link>
+            <Link href={"https://whitepaper.solfit.app/"} className='text-white font-bold text-sm sm:text-xl'>Whiteppaper</Link>
+          </div>
         </div>
     </nav>
   )

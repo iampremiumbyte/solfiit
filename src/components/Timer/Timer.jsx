@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const Timer = () => {
     const calculateTimeLeft = () => {
-        const difference = +new Date("Thu Mar 23 2024") - +new Date();
+        const difference = +new Date("Tue Mar 26 2024") - +new Date();
         let timeLeft = {};
     
         if (difference > 0) {
@@ -36,32 +36,12 @@ const Timer = () => {
   return (
     <section className={styles.countdown}>
     <h2>Try our app in</h2>
-    <div className={styles.timerContainer}>
-      <div no className={styles.timerItem}>
-        <h3 suppressHydrationWarning >{timeLeft.days}</h3>
-        <h5>Days</h5>
-      </div>
-      <div className={styles.timerItem}>
-        <h3 suppressHydrationWarning >{timeLeft.hours}</h3>
-        <h5>Hours</h5>
-      </div>
-      <div className={styles.timerItem}>
-        <h3 suppressHydrationWarning >{timeLeft.minutes}</h3>
-        <h5>Minutes</h5>
-      </div>
-      <div className={styles.timerItem}>
-        <h3 suppressHydrationWarning >{timeLeft.seconds}</h3>
-        <h5>Seconds</h5>
-      </div>
-    </div>
-    <p>Contract address <a href="#">643788447382934574839347577483947</a></p>
-    <div className={styles.twoButtons}>
-      <a href="#">
-        <Image src={"/birdeye.png"} width={100} height={50}/>
-      </a>
-      <a href="#">
-      DEXSCREENER
-      </a>
+    <div className={`${styles.timerContainer} flex items-center justify-center`}>
+        <h3 suppressHydrationWarning  className='text-white sm:font-bold text-2xl sm:text-4xl' >{timeLeft.hours}</h3>
+        <h3 suppressHydrationWarning  className='text-white sm:font-bold text-2xl sm:text-4xl' >:</h3>
+        <h3 suppressHydrationWarning  className='text-white sm:font-bold text-2xl sm:text-4xl' >{timeLeft.minutes}</h3>
+        <h3 suppressHydrationWarning  className='text-white sm:font-bold text-2xl sm:text-4xl' >:</h3>
+        <h3 suppressHydrationWarning  className='text-white sm:font-bold text-2xl sm:text-4xl' >{timeLeft.seconds}</h3>
     </div>
   </section>
   )

@@ -41,10 +41,6 @@
     align-items: center;
     justify-content: center;
     color: #fff;
-    background-color: #6A3ED9;
-    padding: 1em 2em;
-    border-radius: 10px;
-    margin: 0 .5em;
 }
 
 .timerItem h3 {
@@ -92,11 +88,6 @@
         font-size: .7em;
     }
 
-    .timerItem {
-        width: 33%;
-        padding: .5em 1em;
-        margin: 0 .5em;
-    }
 
     .countdown p {
         font-size: .7em;
