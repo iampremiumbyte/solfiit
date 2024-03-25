@@ -6,13 +6,6 @@ import Footer from "@/components/footer/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
-import localFont from 'next/font/local'
-
-const Aptly = localFont({
-  src: "./fonts/Aptly/49812.otf",
-  variable: '--font-aptly'
-})
-
 export const metadata = {
   title: "Solfit",
   description: "",
